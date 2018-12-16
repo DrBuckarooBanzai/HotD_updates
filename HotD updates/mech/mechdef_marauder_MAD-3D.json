@@ -6,7 +6,9 @@
             "unit_heavy",
             "unit_lance_support",
             "unit_role_brawler",
-            "unit_release"
+            "unit_release",
+			"unit_rare",
+			"Davion"
         ],
         "tagSetSourceFile": ""
     },

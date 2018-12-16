@@ -2,11 +2,30 @@
     "MechTags": {
         "items": [
             "unit_mech",
+     		"unit_LosTech",
 			"unit_jumpOK",
             "unit_assault",
             "unit_lance_tank",
+			"unit_lance_support",
             "unit_role_sniper",
-            "unit_release"
+            "unit_release",
+			"MagistracyOfCanopus",
+			"TaurianConcordat",
+			"Liao",
+			"Marik",
+			"Davion",
+			"Steiner",
+			"Kurita",
+			"ComStar",
+			"AuriganDirectorate",
+			"Betrayers",
+			"AuriganMercenaries",
+			"AuriganPirates",
+			"AuriganRestoration",
+			"Locals",
+			"MajestyMetals",
+			"MercenaryReviewBoard",
+			"NoFaction"
         ],
         "tagSetSourceFile": ""
     },
@@ -14,7 +33,7 @@
     "HeraldryID": null,
     "Description": {
         "Cost": 12150000,
-        "Rarity": 7,
+        "Rarity": 6,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,

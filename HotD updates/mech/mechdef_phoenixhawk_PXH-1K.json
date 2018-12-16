@@ -5,7 +5,8 @@
             "unit_mech",
             "unit_medium",
 			"unit_lance_vanguard",
-			"unit_role_scout"
+			"unit_role_scout",
+			"Kurita"
         ],
         "tagSetSourceFile": ""
     },

@@ -2,10 +2,29 @@
     "MechTags": {
         "items": [
             "unit_mech",
+     		"unit_LosTech",
             "unit_heavy",
 			"unit_lance_assassin",
+			"unit_lance_support",
             "unit_role_brawler",
-            "unit_release"
+            "unit_release",
+			"MagistracyOfCanopus",
+			"TaurianConcordat",
+			"Liao",
+			"Marik",
+			"Davion",
+			"Steiner",
+			"Kurita",
+			"ComStar",
+			"AuriganDirectorate",
+			"Betrayers",
+			"AuriganMercenaries",
+			"AuriganPirates",
+			"AuriganRestoration",
+			"Locals",
+			"MajestyMetals",
+			"MercenaryReviewBoard",
+			"NoFaction"
         ],
         "tagSetSourceFile": ""
     },
@@ -13,14 +32,14 @@
     "HeraldryID": null,
     "Description": {
         "Cost": 8020000,
-        "Rarity": 7,
+        "Rarity": 6,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
         "UIName": "Warhammer WHM-6R",
         "Id": "mechdef_warhammer_WHM-6R-LTR",
         "Name": "Warhammer",
-        "Details": "The Warhammer BattleMech was introduced by StarCorps Industries in 2515 to be \"a mobile 'Mech with enough firepower to destroy or severely damage any 'Mech of the same weight class or lower.\" In the mission it was designed for, the Warhammer proved to be a very capable 'Mech, and for centuries practically defined the entire class of heavy 'Mechs. Boasting incredible firepower and respectable armoring, the Warhammer served prominently in the Star League Defense Force and was one of the premier 'Mechs in the Gunslinger Program. Indeed, many of the greatest MechWarriors in history were Warhammer pilots. This Mech has been refitted in the field with new tech available from the Helm Memory Core.",
+        "Details": "This Mech has been equipped with LosTech rediscovered from the Helm Memory Core.",
         "Icon": "uixTxrIcon_warhammer"
     },
     "simGameMechPartCost": 800000,
@@ -102,21 +121,10 @@
     "inventory": [
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-		{
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -146,7 +154,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -201,7 +209,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -245,7 +253,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPC_0-STOCK",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

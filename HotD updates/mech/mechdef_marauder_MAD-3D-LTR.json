@@ -3,6 +3,7 @@
         "items": [
             "KSBeta",
             "unit_mech",
+     		"unit_LosTech",
             "unit_heavy",
             "unit_lance_support",
             "unit_role_sniper",
@@ -14,7 +15,7 @@
     "HeraldryID": null,
     "Description": {
         "Cost": 8800000,
-        "Rarity": 7,
+        "Rarity": 6,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
@@ -103,7 +104,7 @@
     "inventory": [
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -156,6 +157,17 @@
             "prefabName": null,
             "hasPrefabName": false
         },
+		{
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
@@ -169,7 +181,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -189,9 +201,20 @@
             "prefabName": null,
             "hasPrefabName": false
         },
+		{
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
