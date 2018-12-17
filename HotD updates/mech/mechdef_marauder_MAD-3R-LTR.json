@@ -1,13 +1,12 @@
 {
     "MechTags": {
         "items": [
-            "KSBeta",
             "unit_mech",
+			"unit_release",
      		"unit_LosTech",
             "unit_heavy",
             "unit_lance_support",
             "unit_role_sniper",
-            "unit_release",
 			"MagistracyOfCanopus",
 			"TaurianConcordat",
 			"Liao",
